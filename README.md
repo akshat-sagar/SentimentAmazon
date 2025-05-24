@@ -1,34 +1,23 @@
-# Amazon-Alexa-Reviews
+# SentimentAmazon
 
-## Watch Video: https://www.youtube.com/watch?v=6A2w-KYG4Ko
+This repository contains a sentiment analysis project on Amazon reviews.
 
-## HOW TO RUN
+---
 
-Step 1: Clone the repository
-```
-git clone https://github.com/Surbhit01/Amazon-Alexa-Reviews.git
-```
+## How to Run
 
-Step 2: Open the cloned repository and create a conda environment. Activate the new environment
-```
-conda create -n amazonreview python=3.10
-```
-```
+### Step 1: Clone the repository
+
+```bash
+git clone https://github.com/akshat-sagar/SentimentAmazon.git
+cd SentimentAmazon
+
+# Step 2: Create and activate Conda environment
+conda create -n amazonreview python=3.10 -y
 conda activate amazonreview
-```
 
-Step 3: Install the requirements file
-```
+# Step 3: Install dependencies
 pip install -r requirements.txt
-```
 
-Step 4: Run the app
-```
+# Step 4: Run the Flask app
 flask --app api.py run
-```
-
-Step 5: The app will run on port 5000. 
-```
-localhost:5000
-```
-## NOTE: The issue raised is fixed, please download the .zip folder and run it.
